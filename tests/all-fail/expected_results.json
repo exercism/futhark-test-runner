@@ -1,5 +1,5 @@
 {
   "version": 1,
   "status": "fail",
-  "message": "TODO: replace with correct output"
+  "message": "0 failed, 0 passed, 1 to go.\n/opt/test-runner/tests/all-fail/test.fut:\nCompiling with --backend=c:\nRunning compiled program:\nRunning /opt/test-runner/tests/all-fail/test:\nEntry point: main; dataset: #0 (\"2015i32\"):\n/opt/test-runner/tests/all-fail/test.fut.main.0.actual and /opt/test-runner/tests/all-fail/test.fut.main.0.expected do not match:\nValue #0: expected False, got True\nEntry point: main; dataset: #0 (\"1960i32\"):\n/opt/test-runner/tests/all-fail/test.fut.main.0.actual and /opt/test-runner/tests/all-fail/test.fut.main.0.expected do not match:\nValue #0: expected True, got False\nEntry point: main; dataset: #0 (\"2100i32\"):\n/opt/test-runner/tests/all-fail/test.fut.main.0.actual and /opt/test-runner/tests/all-fail/test.fut.main.0.expected do not match:\nValue #0: expected False, got True\n0/1 passed."
 }
