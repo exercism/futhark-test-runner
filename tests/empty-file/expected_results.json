@@ -1,5 +1,5 @@
 {
   "version": 1,
   "status": "fail",
-  "message": "TODO: replace with correct output"
+  "message": "0 failed, 0 passed, 1 to go.\n/opt/test-runner/tests/empty-file/test.fut:\nCompiling with --backend=c:\nError at /opt/test-runner/tests/empty-file/test.fut:19:3-10:\nUnknown name \"is_leap\"\nIf you find this error message confusing, uninformative, or wrong, please open an issue:\n  https://github.com/diku-dk/futhark/issues\n\n0/1 passed."
 }
