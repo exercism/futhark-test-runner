@@ -29,6 +29,11 @@ results_file="${output_dir}/results.json"
 # Create the output directory if it doesn't exist
 mkdir -p "${output_dir}"
 
+# Symlink in the external packages
+ln -s "/opt/test-runner/lib" "${solution_dir}/lib"
+
+ls -al /opt/test-runner/lib
+
 echo "${slug}: testing..."
 
 # Run the tests for the provided implementation file and redirect stdout and
