@@ -1,5 +1,6 @@
 /tests/**/results.json
 /tests/**/test
 /tests/**/test.c
+/tests/**/lib
 /tests/**/*.actual
 /tests/**/*.expected

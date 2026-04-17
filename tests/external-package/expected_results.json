@@ -1,4 +1,30 @@
 {
-  "version": 1,
-  "status": "pass"
+  "version": 2,
+  "status": "pass",
+  "tests": [
+    {
+      "name": "List of scores",
+      "status": "pass"
+    },
+    {
+      "name": "Latest score",
+      "status": "pass"
+    },
+    {
+      "name": "Personal best",
+      "status": "pass"
+    },
+    {
+      "name": "Personal top three from a list of scores",
+      "status": "pass"
+    },
+    {
+      "name": "Personal top highest to lowest",
+      "status": "pass"
+    },
+    {
+      "name": "Personal top when there is a tie",
+      "status": "pass"
+    }
+  ]
 }
