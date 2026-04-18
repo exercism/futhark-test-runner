@@ -1,4 +1,18 @@
 {
-  "version": 1,
-  "status": "pass"
+  "version": 2,
+  "status": "pass",
+  "tests": [
+    {
+      "name": "Year not divisible by 4 in common year",
+      "status": "pass"
+    },
+    {
+      "name": "Year divisible by 4 and 5 is still a leap year",
+      "status": "pass"
+    },
+    {
+      "name": "Year divisible by 100, not divisible by 400 in common year",
+      "status": "pass"
+    }
+  ]
 }
