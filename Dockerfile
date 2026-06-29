@@ -1,4 +1,4 @@
-FROM alpine:3.23.4@sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11 AS builder
+FROM alpine:3.23.5@sha256:fd791d74b68913cbb027c6546007b3f0d3bc45125f797758156952bc2d6daf40 AS builder
 
 RUN apk add --no-cache curl git
 
@@ -12,7 +12,7 @@ WORKDIR /opt/futhark-packages
 RUN futhark pkg add github.com/diku-dk/sorts && \
     futhark pkg sync
 
-FROM alpine:3.23.4@sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11 AS runtime
+FROM alpine:3.23.5@sha256:fd791d74b68913cbb027c6546007b3f0d3bc45125f797758156952bc2d6daf40 AS runtime
 
 RUN apk add --no-cache jq gcc musl-dev
 
